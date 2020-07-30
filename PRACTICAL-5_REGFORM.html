@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<HTML>
+	<HEAD>
+		<TITLE>
+			PRACTICAL-5_REGFORM
+		</TITLE>
+	</HEAD>
+	<BODY style="background-color: lightgray">
+		<center>
+			<u><h1>STUDENT REGISTRATION FORM</h1></u>
+			<form action="/home.php" method="post">
+			<table border="3px" style="width: 45%">
+				<tr>
+					<td align="center">ENTER YOUR FIRST NAME</td><td><input type="text" name="fname" id="t1" placeholder="Enter fname"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR LAST NAME</td><td><input type="text" name="lname" id="t2" placeholder="Enter lname"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR SURNAME</td><td><input type="text" name="surname" id="t3" placeholder="Enter surname"><br></td>
+				</tr>
+				<tr>
+					<td align="center">SELECT YOUR GENDER</td><td><input type="radio" name="male" id="male" value="MALE">MALE<br>
+						<input type="radio" name="male" id="female" value="FEMALE">FEMALE</td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR AGE</td><td><input type="text" name="age" id="t4" placeholder="Enter age"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR BIRTHDATE</td><td><input type="text" name="BIRTHDATE" id="t5" placeholder="Enter birthdate"><br></td>
+				</tr>
+				<tr>
+					<td align="center">SELECT LANGUAGE KNOWN</td><td><input type="checkbox" name="eng" id="l1" value="ENGLISH">ENGLISH<br>
+						<input type="checkbox" name="guj" id="l2" value="GUJRATI">GUJRATI<br>
+						<input type="checkbox" name="eng" id="l3" value="HINDI">HINDI<br>
+						<input type="checkbox" name="marathi" id="l4" value="MARATHI">MARATHI<br>
+						<input type="checkbox" name="talegu" id="l5" value="TALEGU">TALEGU<br>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">ADDRESS</td><td><textarea rows="3" cols="20" placeholder="Enter address"></textarea><br></td>
+				</tr>
+				<tr>
+					<td align="center">SELECT COUNTRY</td><td><select>
+						<option value="null">Select country</option>
+						<option value="INDIA">INDIA</option>
+						<option value="USA">USA</option>
+						<option value="JAPAN">JAPAN</option>
+						<option value="CANADA">CANADA</option>
+						</select>
+						<br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR STATE</td><td><input type="text" name="state" id="t6" placeholder="Enter state"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR CITY</td><td><input type="text" name="city" id="t7" placeholder="Enter city"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR CONTECT NUMBER</td><td><input type="text" name="Mnumber" id="t8" placeholder="Enter contect number"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR EMAIL ADDERESS</td><td><input type="text" name="Email" id="t9" placeholder="Enter Email eg. xxxxxx@gmail.com"><br></td>
+				</tr>
+				<tr>
+					<td align="center">ENTER YOUR PASSWORD</td><td><input type="PASSWORD" name="pass" id="t10" placeholder="Enter password"><br></td>
+				</tr>
+				<tr>
+					<td align="center">CONFIRM PASSWORD</td><td><input type="CPASSWORD" name="Cpass" id="t11" placeholder="Confirm password"><br></td>
+				</tr>
+				<tr>
+					<td align="center">UPLOAD PHOTO</td><td><input type="file" name="fileToupload" id="t12"><input type="submit" value="Upload Image" name="submit"><br></td>
+				</tr>
+				<tr>
+					<td align="center">UPLOAD SIGNATURE</td><td><input type="file" name="fileToupload" id="t13"><input type="submit" value="Upload Image" name="submit"><br></td>
+				</tr>
+				<tr>
+
+					<td colspan="2"><center><input type="SUBMIT" value="SUBMIT DATA"> <input type="RESET" value="RESET"></center></td>
+				</tr>	
+			</table>
+		</form>
+		</center>
+
+	</BODY>
+</HTML>
+
